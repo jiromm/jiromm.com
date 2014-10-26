@@ -70,7 +70,7 @@
             </section>
 
             <footer>
-                <p>&copy; 2013 jiromm. I like to think &amp; believe that all rights reserved.</p>
+                <p>&copy; 2014 jiromm. I like to think &amp; believe that all rights reserved.</p>
 	            <p>Web design &amp; development is my job.</p>
 	            <p class="fb-like">
 		            <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fjiromm.info&amp;send=false&amp;layout=button_count&amp;width=50&amp;show_faces=false&amp;font=tahoma&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=137156559808291" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px; vertical-align: middle" allowTransparency="true"></iframe>
