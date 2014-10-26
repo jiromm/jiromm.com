@@ -1,0 +1,163 @@
+.center {
+	text-align: center;
+}
+
+.silver {
+	color: #aaa;
+}
+
+.btn-corner {
+	border-radius: 16px;
+}
+
+header {
+	margin-top: .95em;
+	overflow: hidden;
+}
+
+header:before {
+	content: "";
+	position: relative;
+	top: 50px;
+	left: 19px;
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #000;
+	z-index: -1;
+}
+
+.nina {
+	max-width: 100px;
+	max-height: 100px;
+	margin: 0 auto;
+}
+
+.nina img {
+	border-radius: 50% 50%;
+	width: 100%;
+	height: 100%;
+	border-left: 5px solid #ffffff;
+	border-right: 5px solid #ffffff;
+}
+
+.jr {
+	float: left;
+	background: url(../img/jr-invert.png) center center no-repeat;
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 39px;
+
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+
+	-moz-transition: all .5s ease-in;
+	-webkit-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+}
+
+.jr:hover {
+	top: 41px;
+	-ms-transform:rotate(0deg);
+	-webkit-transform:rotate(0deg);
+	transform:rotate(0deg);
+}
+
+.author {
+	font-weight: normal;
+}
+
+.social {
+	list-style-type: none;
+	margin: 10px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.social li {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	padding: 5px;
+}
+
+.social li a {
+	font-size: 0;
+	background: url(../img/social/like.png) center center no-repeat;
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+}
+
+.social li a:hover {
+	opacity: .7;
+}
+
+.facebook a {
+	background-image: url(../img/social/facebook.png) !important;
+}
+
+.twitter a {
+	background-image: url(../img/social/twitter.png) !important;
+}
+
+.linkedin a {
+	background-image: url(../img/social/linkedin.png) !important;
+}
+
+.gplus a {
+	background-image: url(../img/social/gplus.png) !important;
+}
+
+.youtube a {
+	background-image: url(../img/social/youtube.png) !important;
+}
+
+.soundcloud a {
+	background-image: url(../img/social/soundcloud.png) !important;
+}
+
+.skype a {
+	background-image: url(../img/social/skype.png) !important;
+}
+
+.email a {
+	background-image: url(../img/social/email.png) !important;
+}
+
+footer {
+	text-align: center;
+	color: #bbb;
+	border-top: 1px solid #eee;
+	font-size: 80%;
+	padding: 5px;
+}
+
+footer p {
+	margin: 0;
+	padding: 0;
+}
+
+.hire-us {
+	color: #ffffff;
+	background: #006dcc;
+	padding: 0 2px;
+}
+
+.hire-us:hover {
+	text-decoration: none;
+	background: rgba(0, 109, 204, 0.77);
+	color: #fff;
+}
+
+.fb-like {
+	margin-top: 5px;
+}
