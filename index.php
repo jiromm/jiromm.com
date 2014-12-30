@@ -6,9 +6,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	    <meta name="Author" content="Aram Baghdasaryan, aram.baghdasaryan@gmail.com">
+        <meta name="Author" content="Aram Baghdasaryan, aram.baghdasaryan@gmail.com">
 
-        <title>Aram Baghdasaryan - Web Design & Development</title>
+        <title>Aram Baghdasaryan - Web Design &amp; Development</title>
 
         <meta name="description" content="Web design and development by Aram Baghdasaryan">
         <meta name="keywords" content="jiromm.info, jiromm, web, web design, web development, aram baghdasaryan, web applications">
@@ -55,7 +55,6 @@
             <section class="row">
                 <div class="span6 offset3">
                     <h2 class="author center">Aram Baghdasaryan</h2>
-<!--                    <p class="center silver">Nina Manukyan in photo, because she's more beautiful than me.</p>-->
                     <ul class="social clearfix">
 	                    <li class="facebook"><a href="http://facebook.com/aram.baghdasaryan"></a></li>
 	                    <li class="twitter"><a href="http://twitter.com/jiromm"></a></li>
@@ -63,8 +62,7 @@
 	                    <li class="gplus"><a href="https://plus.google.com/u/0/105565152422871843409"></a></li>
 	                    <li class="youtube"><a href="http://www.youtube.com/scragaram"></a></li>
 	                    <li class="soundcloud"><a href="https://soundcloud.com/jiromm"></a></li>
-	                    <li class="skype"><a href="skype:q3.double"></a></li>
-	                    <li class="email"><a href="mailto:aram.baghdasaryan@gmail.com"></a></li>
+	                    <li class="email"><a href="mailto:aram@jiromm.com"></a></li>
                     </ul>
                 </div>
             </section>
