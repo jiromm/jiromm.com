@@ -1,44 +1,97 @@
-.center {
-	text-align: center;
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-.silver {
-	color: #aaa;
+html,
+body {
+	background-color: #FEDCC8;
 }
 
-.btn-corner {
-	border-radius: 16px;
+.parallax {
+	-webkit-perspective: 100px;
+	perspective: 100px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	right: 0;
+	bottom: 0;
+	margin-left: -1500px;
 }
 
-header {
-	margin-top: .95em;
-	overflow: hidden;
+.parallax__layer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
-
-header:before {
-	content: "";
-	position: relative;
-	top: 50px;
-	left: 19px;
+.parallax__layer img {
 	display: block;
-	width: 100%;
-	height: 2px;
-	background: #000;
-	z-index: -1;
+	position: absolute;
+	bottom: 0;
 }
 
-.nina {
-	max-width: 100px;
-	max-height: 100px;
-	margin: 0 auto;
+.parallax__cover {
+	background: #2D112B;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	height: 1500px;
+	z-index: 20;
 }
 
-.nina img {
-	border-radius: 50% 50%;
-	width: 100%;
-	height: 100%;
-	border-left: 5px solid #ffffff;
-	border-right: 5px solid #ffffff;
+.parallax__layer__0 {
+	-webkit-transform: translateZ(-300px) scale(4);
+	transform: translateZ(-300px) scale(4);
+}
+
+.parallax__layer__1 {
+	-webkit-transform: translateZ(-250px) scale(3.5);
+	transform: translateZ(-250px) scale(3.5);
+}
+
+.parallax__layer__2 {
+	-webkit-transform: translateZ(-200px) scale(3);
+	transform: translateZ(-200px) scale(3);
+}
+
+.parallax__layer__3 {
+	-webkit-transform: translateZ(-150px) scale(2.5);
+	transform: translateZ(-150px) scale(2.5);
+}
+
+.parallax__layer__4 {
+	-webkit-transform: translateZ(-100px) scale(2);
+	transform: translateZ(-100px) scale(2);
+}
+
+.parallax__layer__5 {
+	-webkit-transform: translateZ(-50px) scale(1.5);
+	transform: translateZ(-50px) scale(1.5);
+}
+
+.parallax__layer__6 {
+	-webkit-transform: translateZ(0px) scale(1);
+	transform: translateZ(0px) scale(1);
+}
+
+/** main **/
+
+.container {
+	width: 600px;
+	margin-left: 1500px;
+	position: relative;
+	top: 1350px;
+	left: -300px;
+	text-align: center;
+	font-family: 'Fauna One', serif;
+	color: rgba(255, 255, 255, .8);
+	background: #2D112B;
 }
 
 .jr {
@@ -59,105 +112,29 @@ header:before {
 	transition: all .5s ease-in;
 }
 
-.jr:hover {
-	top: 41px;
-	-ms-transform:rotate(0deg);
-	-webkit-transform:rotate(0deg);
-	transform:rotate(0deg);
-}
-
-.author {
-	font-weight: normal;
-}
-
-.social {
-	list-style-type: none;
-	margin: 10px 0;
-	padding: 0;
-	text-align: center;
-}
-
-.social li {
-	display: inline-block;
-	width: 32px;
-	height: 32px;
-	padding: 5px;
-}
-
-.social li a {
-	font-size: 0;
-	background: url(../img/social/like.png) center center no-repeat;
-	display: block;
-	width: 100%;
-	height: 100%;
-
-	-moz-transition: all .2s linear;
-	-webkit-transition: all .2s linear;
-	-o-transition: all .2s linear;
-	transition: all .2s linear;
-}
-
-.social li a:hover {
+footer {
 	opacity: .7;
 }
-
-.facebook a {
-	background-image: url(../img/social/facebook.png) !important;
-}
-
-.twitter a {
-	background-image: url(../img/social/twitter.png) !important;
-}
-
-.linkedin a {
-	background-image: url(../img/social/linkedin.png) !important;
-}
-
-.gplus a {
-	background-image: url(../img/social/gplus.png) !important;
-}
-
-.youtube a {
-	background-image: url(../img/social/youtube.png) !important;
-}
-
-.soundcloud a {
-	background-image: url(../img/social/soundcloud.png) !important;
-}
-
-.skype a {
-	background-image: url(../img/social/skype.png) !important;
-}
-
-.email a {
-	background-image: url(../img/social/email.png) !important;
-}
-
-footer {
-	text-align: center;
-	color: #bbb;
-	border-top: 1px solid #eee;
-	font-size: 80%;
-	padding: 5px;
-}
-
-footer p {
-	margin: 0;
-	padding: 0;
-}
-
-.hire-us {
-	color: #ffffff;
-	background: #006dcc;
-	padding: 0 2px;
-}
-
-.hire-us:hover {
+footer a {
+	color: inherit;
 	text-decoration: none;
-	background: rgba(0, 109, 204, 0.77);
-	color: #fff;
+	border-bottom: 1px dashed #fff;
+}
+footer a:hover {
+	border-bottom: 1px solid #fff;
 }
 
 .fb-like {
+	position: absolute;
+	right: 10px;
+	top: 10px;
 	margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: 320px;
+		left: -160px;
+		padding: 10px;
+	}
 }
