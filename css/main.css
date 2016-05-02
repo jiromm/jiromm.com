@@ -4,64 +4,40 @@
 }
 
 body {
-	background: #111c2d;
-	-webkit-perspective: 1000px;
-	perspective: 1000px;
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	height: 100vh;
+	background: #201d25;
+	color: #7a7074;
 	font-family: 'Fauna One', serif;
 }
 
-.card {
-	pointer-events: none;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	padding: 30px;
-	background: rgba(255,255,255,.1);
-	border-radius: 5px;
+.abs-center {
 	width: 500px;
-	height: 300px;
-	margin: auto;
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	margin: 100px auto;
+}
+.header {
 	position: relative;
 }
-.card .card-content {
-	margin: auto;
-	text-align: center;
-	color: rgba(255, 255, 255, 0.81);
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
+.me {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: url("../img/me.jpg") 0 0 no-repeat;
+	background-size: cover;
+	margin: 0 auto;
 }
-.card h1 {
-	-webkit-transform: translateZ(100px);
-	transform: translateZ(100px);
-	color: rgba(237, 138, 0, 1);
-	text-shadow: 1px 1px 0 rgba(17, 28, 45, 0.11);
-}
-.card p {
-	-webkit-transform: translateZ(50px);
-	transform: translateZ(50px);
+.me:before,
+.me:after {
+	content: "";
 	display: block;
+	position: absolute;
+	width: 100px;
+	height: 2px;
+	background: #36313e;
+	top: 49px;
 }
-.card p.related {
-	-webkit-transform: translateZ(80px);
-	transform: translateZ(80px);
-	font-style: italic;
+.me:before {
+	left: 80px;
 }
-.card a {
-	color: rgba(237, 138, 0, 1);
-	pointer-events: auto;
+
+.me:after {
+	left: 320px;
 }
